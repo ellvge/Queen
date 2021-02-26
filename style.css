@@ -4,26 +4,10 @@
 }
 
 .site-header h1 {
+margin-top: -10px;
 	font-family: Gabriola;
 	font-size: 70px;
 	font-weight: bolder;
-}
-
-.menu { 
-	float: right;
-	background-color: #ffd4fe;
-	width: 200px;
-	height: 150px;
-    margin-right: 200px;
-    padding-top: 10px;
-	}
-
-.menu h3 {
-	font-size: 22px;
-}
-
-.menu2 a {
-	font-size: 17px;
 }
 
 body{ 
@@ -34,10 +18,11 @@ body{
 	width: 730px;
 	height: 800px;
 	background-color: #ffd4fe;
+        margin-top: 100px;
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 30px;
-    margin-left: 290px;
+	padding-top: 50px;
+        margin-left: 590px;
 	}
 
 .info p {
@@ -53,13 +38,9 @@ footer {
 width: 795px;
 	float: down;
 	background-color:#ffd4fe;
-margin-left: 290px;
+        margin-left: 590px;
          
 }
-
-.menu h3{
-	text-align: center;
-	}	
 
 h4 {
 	font-size: 30px;
@@ -71,3 +52,34 @@ font-size: 20px;
 }
 
 
+#nav {
+    display:inline-block;
+    width:25%;
+    height: 50px;
+    margin:0px auto;
+    padding:0;
+    background: #26bcfc url(../images/bg.png) repeat-x 0 -110px;
+
+    border-radius:10px; 
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    box-shadow:0 2px 2px rgba(0,0,0, .5);
+    -moz-box-shadow:0 2px 2px rgba(0,0,0, .5);
+    -webkit-box-shadow:0 2px 2px rgba(0,0,0, .5);
+}
+#nav li {
+    margin:10px;
+    float:left;
+    position:relative;
+    list-style:none;
+}
+#nav a {
+    font-weight:bold;
+    color:#202021;
+    text-decoration:none;
+    display:block;
+    padding:8px 20px;
+
+    border-radius:10px; /*some css3*/
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
